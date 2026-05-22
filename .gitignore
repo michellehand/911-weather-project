@@ -179,3 +179,30 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# Ignore all data folders
+data/raw/
+data/processed/
+
+# Common data formats
+*.csv
+*.parquet
+*.xlsx
+*.zip
+
+# VS Code
+.vscode/
