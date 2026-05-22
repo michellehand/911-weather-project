@@ -1,0 +1,5 @@
+Model,MAE,RMSE,R2
+Baseline Linear,30.41,38.52,0.085
+Weather Linear,30.03,37.96,0.111
+RF Weather,29.17,37.4,0.137
+RF + Lag Features,21.08,27.5,0.534
